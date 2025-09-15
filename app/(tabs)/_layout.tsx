@@ -21,6 +21,12 @@ export default function TabLayout() {
           title:'Tarjetas',
         }}
       />
+      <Tabs.Screen
+        name="galeria"
+        options={{
+          title:'Galería',
+        }}
+      />
     </Tabs>
   )
 }
